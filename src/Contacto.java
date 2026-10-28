@@ -10,11 +10,7 @@ public class Contacto {
         this.email = email;
     }
 
-    //    Getters
-    public String getEmail() {
-        return email;
-    }
-
+    // Getters
     public String getNombre() {
         return nombre;
     }
@@ -23,11 +19,11 @@ public class Contacto {
         return telefono;
     }
 
-    //    Setters
-    public void setEmail(String email) {
-        this.email = email;
+    public String getEmail() {
+        return email;
     }
 
+    // Setters
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -36,14 +32,12 @@ public class Contacto {
         this.telefono = telefono;
     }
 
-    public String toString() {
-//        System.out.println("Nombre: " + this.nombre
-//                + " | " + "Teléfono: " + this.telefono
-//                + " | " + "Email: " + this.email);
-        String message = "Nombre: " + this.nombre
-                + " | " + "Teléfono: " + this.telefono
-                + " | " + "Email: " + this.email;
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
-        return message;
+    @Override
+    public String toString() {
+        return nombre + " | Telefono: " + telefono + " | Email: " + email;
     }
 }
