@@ -277,3 +277,8 @@ Elige una opcion: 10 Saliendo de la agenda...
 
 - **Comenta tu código.** No para que se vea bonito, sino para que puedas entenderlo después. 
 
+## Imagenes 
+
+![Imagen 1](/photos/imagen_1.webp "Imagen 1")
+![Imagen 2](/photos/imagen_2.webp "Imagen 2")
+![Imagen 3](/photos/imagen_3.webp "Imagen 3")
